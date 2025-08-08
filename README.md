@@ -61,7 +61,57 @@ The project's architecture is divided into two parts:
 * **Backend (`app.py`):** A Flask server that acts as a data provider. It uses the Finnhub API to retrieve real-time stock prices and historical data. It also performs technical analysis calculations and stores all the information in a local SQLite3 database for quick retrieval. A background thread ensures data is updated periodically.
 * **Frontend (`popup.html`, `popup.js`):** The browser extension's user interface. It communicates with the local Flask server to fetch stock data. The `popup.js` script handles all user interactions, data filtering, and rendering of the charts using the Chart.js library.
 
----
+*2. Load the Extension
+Open your browser’s Extensions page.
+
+Enable Developer Mode.
+
+Click Load unpacked.
+
+Select the project folder.
+
+⚙️ Setup
+Sign up for a market data API service:
+
+Alpha Vantage
+
+Yahoo Finance API
+
+Finnhub
+
+Get your API key from the provider.
+
+Open the extension’s settings page.
+
+Paste your API key and save.
+
+[Browser Extension UI] 
+        ↓
+[API Request] → [Live Market Data Provider]
+        ↓
+[Feature Extraction: RSI, MACD, SMA, EMA]
+        ↓
+[Machine Learning Model (Pre-trained)]
+        ↓
+[Prediction: UP or DOWN]
+        ↓
+[Render in UI]
+
+🛠 Technologies Used
+Frontend & Extension
+HTML5 / CSS3 / JavaScript (ES6+)
+
+Browser Extension APIs (Chrome/Edge/Brave)
+
+Machine Learning
+Python (Scikit-learn / TensorFlow for training)
+
+TensorFlow.js (for in-browser prediction) or model inference via API
+
+APIs
+Alpha Vantage / Yahoo Finance / Finnhub 
+
+
 
 ## 🛠 Technologies Used
 
