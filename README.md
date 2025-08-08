@@ -87,3 +87,62 @@ This project is licensed under the **Apache License 2.0**. For more details, ple
 ## 📬 Contact
 
 For any questions, suggestions, or feedback, you can reach out by opening an issue on the GitHub repository.
+
+2. Load the Extension
+Open your browser’s Extensions page.
+
+Enable Developer Mode.
+
+Click Load unpacked.
+
+Select the project folder.
+
+⚙️ Setup
+Sign up for a market data API service:
+
+Alpha Vantage
+
+Yahoo Finance API
+
+Finnhub
+
+Get your API key from the provider.
+
+Open the extension’s settings page.
+
+Paste your API key and save.
+
+[Browser Extension UI] 
+        ↓
+[API Request] → [Live Market Data Provider]
+        ↓
+[Feature Extraction: RSI, MACD, SMA, EMA]
+        ↓
+[Machine Learning Model (Pre-trained)]
+        ↓
+[Prediction: UP or DOWN]
+        ↓
+[Render in UI]
+
+🛠 Technologies Used
+Frontend & Extension
+HTML5 / CSS3 / JavaScript (ES6+)
+
+Browser Extension APIs (Chrome/Edge/Brave)
+
+Machine Learning
+Python (Scikit-learn / TensorFlow for training)
+
+TensorFlow.js (for in-browser prediction) or model inference via API
+
+APIs
+Alpha Vantage / Yahoo Finance / Finnhub
+
+<img width="439" height="848" alt="Ekran görüntüsü 2025-08-08 163614" src="https://github.com/user-attachments/assets/b78c44b8-f6c6-49a2-a02c-d87fc628d159" />
+
+<img width="411" height="736" alt="Ekran görüntüsü 2025-08-08 163625" src="https://github.com/user-attachments/assets/9e3b0cfb-e2d6-4e32-8fc0-5a556a00bc85" />
+
+<img width="313" height="883" alt="Ekran görüntüsü 2025-08-08 163652" src="https://github.com/user-attachments/assets/eb0f8937-56cd-44ce-972e-9eb3e808648d" />
+
+
+
