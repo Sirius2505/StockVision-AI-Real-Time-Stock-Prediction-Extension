@@ -32,7 +32,7 @@ To get this project up and running, you need to set up both the backend server a
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/KullaniciAdin/ProjeAdin.git](https://github.com/KullaniciAdin/ProjeAdin.git)
+    git clone [https://github.com/Sirius2505/StockVision-AI-Real-Time-Stock-Prediction-Extension.git](https://github.com/Sirius2505/StockVision-AI-Real-Time-Stock-Prediction-Extension.git)
     cd ProjeAdin
     ```
 2.  **Install Dependencies:** All necessary Python packages are listed in `requirements.txt`.
