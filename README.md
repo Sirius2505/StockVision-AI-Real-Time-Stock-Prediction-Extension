@@ -61,15 +61,6 @@ The project's architecture is divided into two parts:
 * **Backend (`app.py`):** A Flask server that acts as a data provider. It uses the Finnhub API to retrieve real-time stock prices and historical data. It also performs technical analysis calculations and stores all the information in a local SQLite3 database for quick retrieval. A background thread ensures data is updated periodically.
 * **Frontend (`popup.html`, `popup.js`):** The browser extension's user interface. It communicates with the local Flask server to fetch stock data. The `popup.js` script handles all user interactions, data filtering, and rendering of the charts using the Chart.js library.
 
-*2. Load the Extension
-Open your browser’s Extensions page.
-
-Enable Developer Mode.
-
-Click Load unpacked.
-
-Select the project folder.
-
 ⚙️ Setup
 Sign up for a market data API service:
 
