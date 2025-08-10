@@ -18,7 +18,7 @@ This project is a **web browser extension** that provides a comprehensive platfo
 
 | Dashboard View | Stock Detail View |
 | :---: | :---: |
-| ![Dashboard Screenshot](https://via.placeholder.com/400x300.png?text=Dashboard+Screenshot) | ![Stock Detail Screenshot](https://via.placeholder.com/400x300.png?text=Stock+Detail+Screenshot) |
+| ![Dashboard Screenshot](<img width="411" height="736" alt="Ekran görüntüsü 2025-08-08 163625" src="https://github.com/user-attachments/assets/9e3b0cfb-e2d6-4e32-8fc0-5a556a00bc85" />) | ![Stock Detail Screenshot](<img width="313" height="883" alt="Ekran görüntüsü 2025-08-08 163652" src="https://github.com/user-attachments/assets/eb0f8937-56cd-44ce-972e-9eb3e808648d" />) |
 
 (Projenin arayüzünü gösteren gerçek görsellerle bu placeholder'ları değiştirmeyi unutmayın.)
 
